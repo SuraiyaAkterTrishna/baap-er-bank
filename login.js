@@ -6,9 +6,9 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     const password = passwordField.value;
 
     if(email === 'sontan@gmail.com' && password === 'secret'){
-        console.log('valid user');
+        window.location.href = 'bank.html'
     } 
     else{
-        console.log('Invalid user');
+        alert('Tui password vule gesos!!! Toke tejjo sontan ghosona kora holo!!');
     }
 });

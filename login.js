@@ -1,3 +1,9 @@
 document.getElementById('submit-btn').addEventListener('click', function(){
-    console.log('button clicked');
+    const emailField = document.getElementById('email-field');
+    const email = emailField.value;
+    
+    const passwordField = document.getElementById('password-field');
+    const password = passwordField.value;
+
+    console.log(email, password);
 })

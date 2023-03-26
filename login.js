@@ -5,5 +5,10 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     const passwordField = document.getElementById('password-field');
     const password = passwordField.value;
 
-    console.log(email, password);
-})
+    if(email === 'sontan@gmail.com' && password === 'secret'){
+        console.log('valid user');
+    } 
+    else{
+        console.log('Invalid user');
+    }
+});
